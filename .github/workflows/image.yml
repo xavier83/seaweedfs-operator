@@ -29,8 +29,8 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            chrislusf/seaweedfs-operator
-            ghcr.io/seaweedfs/seaweedfs-operator
+            xavier83/seaweedfs-operator
+            ghcr.io/xavier83/seaweedfs-operator
           tags: |
             type=ref,event=branch
             type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', 'master') }}
