@@ -29,7 +29,6 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            xavier83/seaweedfs-operator
             ghcr.io/xavier83/seaweedfs-operator
           tags: |
             type=ref,event=branch
